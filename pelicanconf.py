@@ -1,4 +1,4 @@
-AUTHOR = 'Van Rompaey'
+AUTHOR = 'Van Rompaey Titouan'
 SITENAME = 'Portfolio'
 SITEURL = ''
 

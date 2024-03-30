@@ -1,6 +1,6 @@
 Title:page test
 Category: Essai
-Authors: professeur CPI
+date: 2023-06-11 07:30
 
 
 Voici la 1ère ligne de ma page.

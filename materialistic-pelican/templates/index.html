@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<div class="mblog__posts mdl-grid">
+  
+  {% block content_title %}
+  {% endblock %}
+{% if category != Null %}
+{% for article in articles_page.object_list %}
+  <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+    <div class="mdl-card__title mdl-color-text--grey-50 mdl-color--primary">
+      <h3 class="entry-title">{{ article.title }}</h3>
+    </div>
+    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+      {{ article.content }}
+    </div>
+  </div>
+{% endfor %}
+{% else %}
+<div class="cat_title mdl-cell mdl-cell--12-col mdl-color--primary">
+  <div> <h2 class="mdl-color-text--white"> Mon Portfolio </h2> </div>
+  </div>  
+{% endif %}
+  {% if articles_page.has_other_pages() %}
+  {% include 'pagination.html' %}
+  {% endif %}
+  <style>
+    .mblog {
+      background-image: url('{{ SITEURL }}/images/fond.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+  <!-- </section> /#content -->
+  <!--
+</div>
+</main>
+-->
+</div>
+{% endblock content %}

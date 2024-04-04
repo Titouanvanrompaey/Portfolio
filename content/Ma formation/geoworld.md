@@ -16,7 +16,7 @@ Par groupe de 2 nous devions modifier le site afin de:
 <img src="../images/geo-update-bdd.png" width="75%"> </br>
 - Ajouter la possibilité d'ajouter un utilisateur pour l'administrateur
 <img src="../images/geo-ajout-utilisateur.png" width="75%"> </br>
-- Ajouter une fonctionnalité de notre choix. Avec mon binône nous avons choisi d'installer un système de chat
+- Ajouter une fonctionnalité de notre choix. Avec mon binôme nous avons choisi d'installer un système de chat
 <img src="../images/geo-chat.png" width="75%"> </br>
 Langages utilisés: 
 <img src="../images/html.png" width="5%"><img src="../images/css.png" width="3.5%">
